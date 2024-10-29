@@ -9,5 +9,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'AngularHelloWorld';
+  title: string = 'Angular Hello World';
+  angularVersion: number = 18;
+  year: number = new Date().getFullYear();
 }
